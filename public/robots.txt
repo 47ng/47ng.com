@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://47ng.com/sitemap.xml
