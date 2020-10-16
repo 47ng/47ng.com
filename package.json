@@ -32,7 +32,7 @@
     "next": "^9.5.5",
     "next-seo": "^4.11.0",
     "react": "^16.14.0",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.14.0"
   },
   "devDependencies": {
     "@commitlint/config-conventional": "^11.0.0",
