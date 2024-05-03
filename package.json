@@ -16,6 +16,7 @@
   "type": "module",
   "scripts": {
     "dev": "next",
+    "install": "next build",
     "build": "next build",
     "start": "next start"
   },
