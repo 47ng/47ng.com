@@ -31,6 +31,7 @@
     "@types/react-dom": "^18.3.0",
     "typescript": "^5.4.5"
   },
+  "packageManager": "pnpm@10.5.2",
   "jest": {
     "verbose": true,
     "preset": "ts-jest/presets/js-with-ts",
