@@ -18,20 +18,25 @@
     "dev": "next",
     "install": "next build",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "test": "node --test --test-timeout=30000 test/*.test.mjs",
+    "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "next": "^14.2.3",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "next": "^16.4.5",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
   },
   "devDependencies": {
-    "@types/node": "^20.12.8",
-    "@types/react": "^18.3.1",
-    "@types/react-dom": "^18.3.0",
-    "typescript": "^5.4.5"
+    "@types/node": "^26.6.6",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "typescript": "^7.0.2"
   },
-  "packageManager": "pnpm@10.5.2",
+  "packageManager": "pnpm@12.18.0",
+  "engines": {
+    "node": "26.13.0"
+  },
   "jest": {
     "verbose": true,
     "preset": "ts-jest/presets/js-with-ts",
